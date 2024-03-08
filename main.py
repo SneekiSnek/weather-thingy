@@ -2,7 +2,7 @@ import requests
 from kivy.app import App
 from kivy.uix.widget import Widget
 
-api_key = "fdb74f3799bfe740d585f1fd0dd8a6e3"
+api_key = "ADD UR API KEY HERE"
 
 location = "stockholm"
 
