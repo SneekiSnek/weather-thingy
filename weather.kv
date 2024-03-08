@@ -1,0 +1,45 @@
+#:kivy 1.0.9
+
+<WeatherWindow>:
+    #canvas.before:
+    #    Color:
+    #        rgba: (1,1,1,1)
+    #    Rectangle:
+    #        pos: self.pos
+    #        size: self.size
+    
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 50
+        text: app.place
+        #Color:
+        #    rgba: (0,0,0,0)
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 150
+        text: app.temp
+        #Color:
+        #    rgba: (0,0,0,0)
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 250
+        text: app.ftemp
+        #Color:
+        #    rgba: (0,0,0,0)
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 350
+        text: app.desc
+        #Color:
+        #    rgba: (0,0,0,0)
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 450
+        text: app.hilo
+        #Color:
+        #    rgba: (0,0,0,0)
